@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django-specific files
+*.sqlite3
+*.log
+
+# Virtual environment folders
+env/
+envfeedback/
+venv/
+ENV/
+.venv/
+
+# Secret environment files
+.env
+*.env
+
+# Django migrations (optional)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Coverage and testing
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# IDE/editor config
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Git conflict files
+*.orig
